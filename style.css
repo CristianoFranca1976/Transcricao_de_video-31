@@ -1,0 +1,237 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+
+}
+
+#container {
+    
+    width: 1440px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: var(--background, #030712);
+
+}
+
+.logo {
+    
+    width: 252px;
+    height: 32px;
+    margin-top: 64px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.magic_wand {
+    width: 32px;
+    height: 32px;
+}
+
+h1 {
+    width: 212px;
+    height: 16px;
+    color: var(--text-primary, #F9FAFB);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;  
+}
+
+span {
+    color: var(--text-primary, #F9FAFB);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+
+.video_input {
+    
+    display: flex;
+    width: 624px;
+    flex-direction: row;
+    height: 56px;
+    margin-top: 48px;
+    align-items: center;
+    gap: 16px;
+   
+}
+
+.URL-field {
+    width: 467px;
+    height: 56px;
+    display: flex;
+    width: 467px;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid var(--surface-secondary, #1F2937);
+    background: var(--surface-primary, #111827);
+
+}
+
+.video_input input {
+    
+    color: var(--text-primary, #F9FAFB);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    width: 411px;
+    height: 24px;
+    margin-left: 16px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+
+.URL-field:hover {
+    border-radius: 8px;
+    border: 2px solid var(--brand-primary, #9705EA);
+    background: var(--surface-primary, #111827);
+    
+}
+
+
+.URL-field img {
+    
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.URL-field :placeholder {
+    color: var(--text-tertiary, #9CA3AF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: transparent;
+      
+}
+
+.search-field:not(:placeholder-shown) + .clear-button {
+    display: block;
+}
+
+
+.video_input button {
+    
+    width: 141px;
+    height: 56px;
+    border-radius: 8px;
+    background: var(--brand-primary, #9705EA);
+    box-shadow: 0px 0px 16px 0px rgba(151, 5, 234, 0.50);
+
+}
+
+.Transcription_result {
+    
+    width: 1280px;
+    height: 666px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+    border-radius: 64px 64px 0px 0px;
+    background: var(--surface-primary, #111827);
+    margin-top: 40px;
+}
+
+.player {
+   
+    width: 584px;
+    height: 400px;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 32px;
+    background: var(--video-background, #000);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 40px;
+
+}
+
+.Transcription {
+    
+    display: flex;
+    width: 584px;
+    height: 400px;
+    padding: 24px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-right: 40px;
+}
+
+.linha1 {
+   
+    width: 588px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.time {
+    display: flex;
+    height: 24px;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: var(--surface-secondary, #1F2937);
+    color: var(--text-secondary, #E5E7EB);
+    
+}
+
+.text {
+    color: var(--text-secondary, #E5E7EB);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+span1 {
+    border-radius: 4px;
+    background: var(--brand-primary, #9705EA);
+    width: 84px;
+    height: 24px;
+}
+
+.linha3 {
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+.Transcription img {
+    width: 24px;
+    height: 24px;
+    padding: 12px 12px;
+    position: absolute;
+    margin-left: 536px;
+    border-radius: 8px;
+    background-color:  #1F2937;
+
+}
